@@ -101,7 +101,7 @@ $(document).ready(function(){
     $prevBtn.on('click', showPrevAchievement);
 
     // Automatic scrolling every 30 seconds
-    setInterval(showNextAchievement, 3000); // 30000 milliseconds = 30 seconds
+    setInterval(showNextAchievement,17000); // 30000 milliseconds = 30 seconds
 
     // Ensure the buttons are visible
     $prevBtn.show();
