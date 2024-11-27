@@ -11,6 +11,63 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<style>
+        /* Add your existing CSS styles here or link to your CSS file */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: crimson;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .skills, .projects, .contact {
+            margin: 40px 0;
+        }
+        .skills-title, .projects-title, .contact-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills-content, .projects-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill, .project {
+            flex: 1 1 45%; /* Adjust to 45% for two items per row */
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block; /* Stack menu items on mobile */
+                margin: 10px 0;
+            }
+            .skill, .project {
+                flex: 1 1 100%; /* Full width on mobile */
+            }
+        }
+    </style>
+
 </head>
 <body>
     <div class="scroll-up-btn">
